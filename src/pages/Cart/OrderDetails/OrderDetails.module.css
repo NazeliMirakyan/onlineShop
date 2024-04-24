@@ -1,0 +1,55 @@
+.order_container {
+    width: 20%;
+    margin-right: 55px;
+    margin-top: 45px;
+  }
+  
+  .order_container h3 {
+    margin: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(81, 81, 81, 0.2);
+  }
+  
+  .sum_part {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(81, 81, 81, 0.2);
+  }
+  
+  .sum {
+    display: flex;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  
+  .title {
+    margin: 0;
+  }
+  
+  .amount {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  .delivery {
+    margin: 0;
+  }
+  
+  .button {
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #fff;
+    transition: ease 0.2s;
+    text-transform: capitalize;
+    background-color: #d468f2;
+  }
+  
+    /* Media Queries */
+  @media screen and (max-width: 768px) {
+    .order_container {
+      width: 100%;
+      margin-right: 0;
+      margin-top: 0;
+    }
+  }

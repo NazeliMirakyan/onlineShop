@@ -1,0 +1,47 @@
+.categories_container {
+    width: 15%;
+    height: 100vh;
+    padding: 0 15px;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: fixed;
+    top: 73px;
+    z-index: 1;
+  }
+  
+  .category_names {
+    color: gray;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .category_names p {
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: ease .2s;
+  }
+  
+  .category_names p:hover {
+    color: #621079;
+  }
+  
+  .selected_category {
+    color: #621079;
+  }
+  
+  /* Media Queries */
+  @media screen and (max-width: 767px) {
+    .categories_container {
+      width: 100%;
+      top: 50px;
+      height: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .categories_container {
+      top: 54px;
+    }
+  }
